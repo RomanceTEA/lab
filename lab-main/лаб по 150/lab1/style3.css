@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+tr:first-child td:first-child {
+    background-color: rgb(247, 188, 188);
+}
+tr td:first-child {
+    background-color: rgb(200, 89, 89);
+}
+
+tr:nth-child(2n) {
+    background-color: violet;
+}
+
+tr:nth-child(3),
+tr:nth-child(5) {
+  background-color: blue;
+}
