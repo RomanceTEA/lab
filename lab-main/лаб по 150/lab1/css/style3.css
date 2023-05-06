@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+table{
+    border-collapse:collapse;
+    width: 50%;
+    font-weight:bold;
+}
+
+tr {
+    height: 30px; 
+}
+
+tr:first-child td:nth-child(3) {
+    background-color: rgb(236, 140, 140);
+}  
+
+tr:first-child td:nth-child(4) {
+    background-color: rgb(172, 2, 2);
+}  
+
+tr:first-child td:nth-child(5) {
+    background-color: rgb(145, 1, 1);
+}  
+
+table tr:first-child,
+table td:first-child {
+  color: white;
+}
+
+tr:first-child td:first-child {
+    background-color: rgb(247, 188, 188);
+}
+
+tr td:first-child {
+    background-color: rgb(217, 78, 78);
+}
+
+tr:nth-child(2n),
+tr:first-child td:nth-child(2){
+    background-color: rgb(238, 130, 132);
+}
+
+tr:nth-child(3),
+tr:nth-child(5) {
+  background-color: rgb(244, 197, 201);
+}
+
+td:nth-child(n+2):nth-child(-n+5) {
+  text-align: center;
+}
+
+td:first-child {
+  padding-left: 20px;
+}
+
+tr:nth-child(4) td:first-child,
+tr:nth-child(5) td:first-child {
+  text-align: right;
+  padding-right: 20px;
+}
+
+tr:nth-child(2), tr:nth-child(3), tr:nth-child(5) {
+    border-bottom: 1px solid white;
+}
+
+tr td:nth-child(2), tr td:nth-child(3), tr td:nth-child(4) {
+    border-left: 1px solid white;
+}
+
+tr:first-child td {
+    border: none;
+}
+
