@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    background: blue;
+    color: white;
+}
+
+.up-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 50px 0px 50px;
+}
+
+.up-footer div {
+    height: 200px;
+    width: 300px;
+}
+
+.up-footer .logo p {
+    margin: 0px;
+}
+
+.logo, .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="email"] {
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    padding-left: 20px;
+    background: blue;
+    border: 1px solid white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    background: white;
+    border: 1px solid white;
+}
+
+hr {
+    background: white;
+    margin-left: 50px;
+}
+
+.left-side {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.right-side {
+    float: right;
+    padding-right: 110px;
+    margin-top: 50px;
+}
+
+.img-link {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+img {
+    width: 16px;
+    height: 16px;
+}

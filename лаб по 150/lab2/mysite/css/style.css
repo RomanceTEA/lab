@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.block {  
+  width: 200px;  
+  height: 200px;  
+  display: inline-block;  
+}  
+  
+.block-red {  
+  background-color: red;  
+} 
+
+.block-blue {  
+    background-color: blue;
+}  
+
+.block-green {  
+    background-color: green;  
+}
+
+.block-yellow {  
+    background-color: yellow;  
+}  

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.block {  
+    width: 200px;  
+    height: 200px;
+    display: inline-block;
+}  
+    
+.block-bg1 {  
+  background-color: orange;  
+  background-image: url("/mysite/img/bg1.png");  
+}  
+  
+.block-bg2 {  
+  background-image: url("/mysite/img/bg3.png");  
+  background-repeat: repeat-x;  
+  background-position: 0 50%;  
+}  
+  
+.block-bg3 {  
+  background: url("/mysite/img/bg3.png") repeat-x 0 10px,  
+              url("/mysite/img/bg3.png") repeat-x left 0 bottom 10px;  
+}
+
+.block-bg4 {  
+  background: url("/mysite/img/bg3.png") no-repeat 50% 50%;  
+}  
+  
+.block-bg5 {  
+  background: url("/mysite/img/bg-image.jpg") no-repeat left top;  
+  background-size: cover;  
+}  
+  
+.block-bg6 {    
+  background: url("/mysite/img/bg3.png") no-repeat 80% 10%,   
+              url("/mysite/img/bg-image.jpg") no-repeat left top;  
+}  
+
