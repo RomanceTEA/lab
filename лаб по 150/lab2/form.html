@@ -8,6 +8,68 @@
     <link rel="stylesheet" href="/css/form.css">
 </head>
 <body>
-    
+    <div>
+        <form>
+            <label for="text">
+                <p>Email:</p>
+                <input type="email" placeholder="">
+            </label>
+            <label for="text">
+                <p>Пароль:</p>
+                <input type="password" placeholder="">
+            </label>
+            <label for="text">
+                <p>Повторіть пароль:</p>
+                <input type="password" placeholder="">
+            </label>
+            <label for="text">
+                <p>Ім'я:</p>
+                <input type="text" placeholder="">
+            </label>
+            <label for="text">
+                <p>Прізвище:</p>
+                <input type="text" placeholder="">
+            </label>
+            <label for="radio">
+                <p>Стать:</p>
+                <input type="radio">
+                <p>чоловіча</p>
+                <input type="radio">
+                <p>жіноча</p>
+            </label>
+            <label for="text">
+                <p>Місто:</p>
+                <input type="text" id="text" list="city">
+                <datalist id="city">
+                    <option value="Житомир">
+                    <option value="Місто 2">
+                    <option value="Місто 3">
+                    <option value="Місто 4">
+                    <option value="Місто 5">
+                  </datalist>
+            </label>
+            <label for="text">
+                <p>Про себе:</p>
+                <textarea rows="4" cols="21">
+                    
+                </textarea>                    
+            </label>
+            <p>Погодження:</p>
+            <label for="checkbox">
+                <div>
+                    <input type="checkbox">
+                    <p>Отримувати розсилку з сайту</p>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <p>Погоджуюсь з правилами сайту</p>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <p>Приховаи профіль на сайті</p>
+                </div>
+            </label>
+        </form>
+    </div>
 </body>
 </html>
