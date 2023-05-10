@@ -12,23 +12,23 @@
         <form>
             <label for="text">
                 <p>Email:</p>
-                <input type="email" placeholder="">
+                <input type="email" placeholder="Email">
             </label>
             <label for="text">
                 <p>Пароль:</p>
-                <input type="password" placeholder="">
+                <input type="password" placeholder="Password">
             </label>
             <label for="text">
                 <p>Повторіть пароль:</p>
-                <input type="password" placeholder="">
+                <input type="password" placeholder="Pepeat password">
             </label>
             <label for="text">
                 <p>Ім'я:</p>
-                <input type="text" placeholder="">
+                <input type="text" placeholder="Name">
             </label>
             <label for="text">
                 <p>Прізвище:</p>
-                <input type="text" placeholder="">
+                <input type="text" placeholder="Surname">
             </label>
             <label for="radio">
                 <p>Стать:</p>
@@ -39,7 +39,7 @@
             </label>
             <label for="text">
                 <p>Місто:</p>
-                <input type="text" id="text" list="city">
+                <input id="text" list="city">
                 <datalist id="city">
                     <option value="Житомир">
                     <option value="Місто 2">
@@ -54,20 +54,20 @@
                     
                 </textarea>                    
             </label>
-            <p>Погодження:</p>
             <label for="checkbox">
-                <div>
-                    <input type="checkbox">
-                    <p>Отримувати розсилку з сайту</p>
-                </div>
-                <div>
-                    <input type="checkbox">
-                    <p>Погоджуюсь з правилами сайту</p>
-                </div>
-                <div>
-                    <input type="checkbox">
-                    <p>Приховаи профіль на сайті</p>
-                </div>
+                <p>Погодження:</p>
+                <ul>
+                    <li><input type="checkbox">
+                        <p>Отримувати розсилку з сайту</p></li>
+                    <li><input type="checkbox">
+                        <p>Погоджуюсь з правилами сайту</p></li>
+                    <li><input type="checkbox">
+                        <p>Приховаи профіль на сайті</p></li>
+                </ul>
+            </label>
+            <label for="log">
+                <input type="submit" value="Зареєструватися">
+                <input type="submit" value="Reset">
             </label>
         </form>
     </div>

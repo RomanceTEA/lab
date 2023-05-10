@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    width: 100%;
+}
+
+p {
+    color: grey;
+}
+
+.up-title {
+    display: flex;
+    gap: 200px;
+}
+
+.first-text {
+    display: flex;
+    gap: 300px;
+}
+
+.up-text,
+.down-text {
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+}
+
+.up-text p:last-of-type,
+.down-text p:last-of-type {
+    display: flex;
+    justify-content: end;
+}
+
+.down-title {
+    display: flex;
+    justify-content: start;
+
+    width: 200px;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+}
+
+.img p {
+    padding-top: 40px;
+}
+
+.second-text {
+    display: flex;
+    gap: 250px;
+}
