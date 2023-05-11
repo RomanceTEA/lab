@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: orange;
+}
+
+ol {
+    margin: 0;
+    padding: 20px;
+}
+
+li {
+    background: green;
+    margin-bottom: 10px;
+}
+
+span {
+    background: brown;
+    color: #fff;
+}
